@@ -64,7 +64,9 @@
 , вычисление трассы спутинка и пересечения направления визира, отклоненного
 на заданный угол крена с Землей. Затем все вышеперечисленные результаты отрисовываются
 и анимируются.
-![](https://github.com/Dmitriynic/calc_of_velocity_field/blob/main/2d_animation.gif)
+<p align="center">
+   <img src="https://github.com/Dmitriynic/calc_of_velocity_field/blob/main/2d_animation.gif" alt="gif" height="300">
+</p>
 
 <p align="center">
     <img src="https://github.com/Dmitriynic/calc_of_velocity_field/blob/main/img/2.png" alt="earth" height="300">
