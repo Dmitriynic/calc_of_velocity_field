@@ -78,11 +78,11 @@
 <div align = "center">
     <figure align = "center">
         <img src="https://i.ibb.co/7nh16FG/2023-11-01-15-30-39.png" height = "400">
-        <figcaption>Поле скоростей до минимизации</figcaption>
+        <figcaption align = "center">Поле скоростей до минимизации</figcaption>
     </figure>
     <figure>
         <img src="https://i.ibb.co/c2bWHbM/2023-11-01-15-30-22.png" height="400">
-        <figcaption>Поле скоростей после минимизации</figcaption>
+        <figcaption align = "center">Поле скоростей после минимизации</figcaption>
     </figure>
 </div>
 
