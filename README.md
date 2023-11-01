@@ -65,7 +65,7 @@
 на заданный угол крена с Землей. Затем все вышеперечисленные результаты отрисовываются
 и анимируются.
 <p align="center">
-   <img src="https://github.com/Dmitriynic/calc_of_velocity_field/blob/main/2d_animation.gif" alt="gif" height="300">
+   <img src="https://github.com/Dmitriynic/calc_of_velocity_field/blob/main/2d_animation.gif" alt="gif" height="300" width="500">
 </p>
 
 <p align="center">
