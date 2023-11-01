@@ -67,30 +67,24 @@
 ![](https://github.com/Dmitriynic/calc_of_velocity_field/blob/main/2d_animation.gif)
 
 <p align="center">
-    <img src="https://i.ibb.co/WHbMwgG/2023-11-01-16-30-01.png" height="400">
+    <img src="https://i.ibb.co/WHbMwgG/2023-11-01-16-30-01.png" alt="earth" height="300">
 </p>
 
 `min_field` обеспечивает среднеквадратичную минимизацию поля скоростей для направления визира на подспутниковую точку.
 При этом ПЗС-линейка в данном случае состоит из одной светочувствительной пластины.
 Также происходит представление поля скоростей и его минимизации 
-в графической форме.
+в графической форме. Представлены изображения до и после минимизации:
 
-<div align = "center">
-    <figure align = "center">
-        <img src="https://i.ibb.co/7nh16FG/2023-11-01-15-30-39.png" height = "400">
-        <figcaption align = "center">Поле скоростей до минимизации</figcaption>
-    </figure>
-    <figure>
-        <img src="https://i.ibb.co/c2bWHbM/2023-11-01-15-30-22.png" height="400">
-        <figcaption align = "center">Поле скоростей после минимизации</figcaption>
-    </figure>
-</div>
+<p align = "center">
+   <img src="https://i.ibb.co/7nh16FG/2023-11-01-15-30-39.png" alt="before min" height ="300">
+   <img src="https://i.ibb.co/c2bWHbM/2023-11-01-15-30-22.png" alt="after min" height="300">
+</p>
 
 `min_field_graph` дополнительно определяет зависимость максимальных значений
 длин векторов поля скоростей от истинной аномалии в момент осуществления фотосъемки.
 
 <p align = "center">
-        <img src="https://i.ibb.co/1M9Z92L/2023-11-01-15-48-04.png" height = "400">
+        <img src="https://i.ibb.co/1M9Z92L/2023-11-01-15-48-04.png" alt="graph1" height = "300">
 </p>
 
 `half_plate` отрисовывает точки на поверхности Земли, которые затем преобразуются в изображение,
@@ -100,22 +94,17 @@
 режима для одного и нескольих снимков.
 
 <p align="center">
-    <img src="https://i.ibb.co/2t0DFz4/2023-11-01-15-53-19.png" height="400">
+    <img src="https://i.ibb.co/2t0DFz4/2023-11-01-15-53-19.png" height="300">
 </p>
 
 `add_roll_angle` решает задачу нахождения закона управления углом крена, который обеспечивает
 оптимальное соединение соседних кадров, при условии, что изначально ведется съемка надира.
-Для наглядности результатов вычислений выбран произвольный угол рыскания.
+Для наглядности результатов вычислений выбран произвольный угол рыскания. Представлены изображения охвата поверхности Земли
+без использования закона управления углом крена и с его использованием:
 
 <div align = "center">
-    <figure align = "center">
-        <img src="https://i.ibb.co/8cq9Nmb/2023-11-01-16-00-11.png" height = "500">
-        <figcaption>Охват земной поверхности без использования закона управления углом крена</figcaption>
-    </figure>
-    <figure>
-        <img src="https://i.ibb.co/FV5KFtf/2023-11-01-16-00-18.png" height="500">
-        <figcaption>Охват земной поверхности с использованием закона управления углом крена</figcaption>
-    </figure>
+   <img src="https://i.ibb.co/8cq9Nmb/2023-11-01-16-00-11.png" height = "400">
+   <img src="https://i.ibb.co/FV5KFtf/2023-11-01-16-00-18.png" height="400">
 </div>
 
 `field_sequence` выдает результат минимизации склейки последовательности снимков. Здесь
