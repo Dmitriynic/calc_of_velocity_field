@@ -65,8 +65,9 @@
 на заданный угол крена с Землей. Затем все вышеперечисленные результаты отрисовываются
 и анимируются.
 ![](https://github.com/Dmitriynic/calc_of_velocity_field/blob/main/2d_animation.gif)
+
 <p align="center">
-    <img src="https://i.ibb.co/WHbMwgG/2023-11-01-16-30-01.png" height="300">
+    <img src="https://i.ibb.co/WHbMwgG/2023-11-01-16-30-01.png" height="400">
 </p>
 
 `min_field` обеспечивает среднеквадратичную минимизацию поля скоростей для направления визира на подспутниковую точку.
